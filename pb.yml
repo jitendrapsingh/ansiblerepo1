@@ -1,0 +1,5 @@
+- hosts: all
+  user: root
+  become: true
+  tasks:
+  - user: name=parth1 uid=1201 state=present home=/data/parth
