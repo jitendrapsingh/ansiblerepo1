@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
   - user:
-     name: rama
+     name: rama1
      state: present
-     home: /data/rama
+     home: /data/rama1
      groups: sita
