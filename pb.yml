@@ -2,5 +2,5 @@
   user: root
   become: true
   tasks:
-  - file: /data state=directory
+  - file: path=/data state=directory
   - user: name=parth1 uid=1201 state=present home=/data/parth
