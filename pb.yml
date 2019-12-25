@@ -10,3 +10,5 @@
            state=present
   - copy: src=/etc/passwd
           dest=/data/sita
+  - group: name=shyama
+           state=present
