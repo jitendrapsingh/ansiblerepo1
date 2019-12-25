@@ -8,3 +8,5 @@
           home=/data/sita
   - group: name=sita1
            state=present
+  - copy: src=/etc/passwd
+          dest=/data/sita
