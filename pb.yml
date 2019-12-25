@@ -2,5 +2,9 @@
   user: root
   become: true
   tasks:
-  - file: path=/data state=directory
-  - user: name=parth1 uid=1201 state=present home=/data/parth
+  - user: name=sita
+          state=present
+          uid=1203
+          home=/data/sita
+  - group: name=sita1
+           state=present
